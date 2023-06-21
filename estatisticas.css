@@ -1,0 +1,234 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    padding: 1vh;
+    background-color: #dae5f2;
+    display: flex;
+    justify-content: space-between;
+}
+
+#div_1 {
+    background-color: #07438C;
+    height: 98vh;
+    width: 31vh;
+    border-radius: 0.8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#div_2 {
+    background-color: #dae5f2;
+    height: 98vh;
+    width: 180vh;
+}
+
+#header {
+    background-color: #07438C;
+    height: 15vh;
+    width: 180vh;
+    border-top-right-radius: 6vh;
+    border-bottom-right-radius: 6vh;
+    border-top-left-radius: 0.8vh;
+    border-bottom-left-radius: 0.8vh;
+}
+
+#div_1_1 {
+    text-align: center;
+}
+
+#div_1_1 div {
+    margin-top: 3vh;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    font-family: 'Corben', cursive;
+}
+
+#div_1_1 div a {
+    display: flex;
+    align-items: center;
+}
+
+#div_1_2 {
+    background-color: #07438C;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5vh;
+
+}
+
+#div_1_2 button {
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0.3vh;
+    border-radius: 0.5vh;
+    border: 2px solid rgb(0, 0, 0);
+    width: 28vh;
+    height: 6vh;
+    cursor: pointer;
+    font-family: 'Corben', cursive;
+}
+
+#div_1_2 button:hover {
+    background-color: #e6f1ff;
+}
+
+#div_1_3 {
+    text-align: center;
+
+}
+
+#div_1_3 a {
+    text-decoration: none;
+    color: #dae5f2;
+}
+
+#div_1_3 a h4 {
+    margin-top: 3vh;
+    color: rgb(255, 255, 255);
+    font-family: 'Corben', cursive;
+}
+
+
+#div_2 #header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#div_2 #header h1 {
+    color: #ffffff;
+    font-size: 8vh;
+    font-family: 'Corben', cursive;
+}
+
+
+#div_2 #header input {
+    border: 0vh;
+    width: 50vh;
+    height: 4vh;
+    border-radius: 2vh;
+}
+
+#div_2 #header #div_header {
+    display: flex;
+    align-items: center;
+}
+
+#div_2 #header #div_header img {
+    margin-left: 2vh;
+}
+
+#conteudo {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    height: 82vh;
+    width: 180vh;
+    margin-top: 1vh;
+    border-radius: 0.8vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+#titulo {
+    width: 175vh;
+    height: 7vh;
+    border-radius: 1.5vh;
+    background-color: #07438C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 4.5vh;
+    font-family: 'Corben', cursive;
+}
+
+#titulo p {
+    height: 7vh;
+    align-items: center;
+    display: flex;
+}
+
+#conteudo_caixa {
+    width: 175vh;
+    height: 68vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#conteudo #caixa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#conteudo #caixa a {
+    text-decoration: none;
+}
+
+#conteudo #caixa a:hover {
+    transition: 0.3s;
+    transform: scale(1.03);
+}
+
+#caixa a div {
+    color: white;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+#caixa a div h4 {
+    font-size: 5vh;
+    padding: 2vh;
+
+}
+
+#banco_talentos {
+    width: 445px;
+    height: 222px;
+    background-image: url(./imagens/banco_de_taletos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2vh
+}
+
+#dados_gestao {
+    width: 445px;
+    height: 222px;
+    background-image: url(./imagens/dados_gestao.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2vh
+}
+
+#areas_aplicacao {
+    width: 445px;
+    height: 222px;
+    background-image: url(./imagens/areas_aplicacao.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2vh
+}
+
+#interesses_empresarias {
+    width: 445px;
+    height: 222px;
+    background-image: url(./imagens/interesses_empresarias.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2vh;
+}

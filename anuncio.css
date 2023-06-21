@@ -1,0 +1,225 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    padding: 1vh;
+    background-color: #dae5f2;
+    display: flex;
+    justify-content: space-between;
+}
+
+#div_1 {
+    background-color: #07438C;
+    height: 98vh;
+    width: 31vh;
+    border-radius: 0.8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#div_2 {
+    background-color: #dae5f2;
+    height: 98vh;
+    width: 180vh;
+}
+
+#header {
+    background-color: #07438C;
+    height: 15vh;
+    width: 180vh;
+    border-top-right-radius: 6vh;
+    border-bottom-right-radius: 6vh;
+    border-top-left-radius: 0.8vh;
+    border-bottom-left-radius: 0.8vh;
+}
+
+#div_1_1 {
+    text-align: center;
+}
+
+#div_1_1 div {
+    margin-top: 3vh;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    font-family: 'Corben', cursive;
+}
+
+#div_1_1 div a {
+    display: flex;
+    align-items: center;
+}
+
+#div_1_2 {
+    background-color: #07438C;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5vh;
+
+}
+
+#div_1_2 button {
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0.3vh;
+    border-radius: 0.5vh;
+    border: 2px solid rgb(0, 0, 0);
+    width: 28vh;
+    height: 6vh;
+    cursor: pointer;
+    font-family: 'Corben', cursive;
+}
+
+#div_1_2 button:hover {
+    background-color: #e6f1ff;
+}
+
+#div_1_3 {
+    text-align: center;
+
+}
+
+#div_1_3 a {
+    text-decoration: none;
+    color: #dae5f2;
+}
+
+#div_1_3 a h4 {
+    margin-top: 3vh;
+    color: rgb(255, 255, 255);
+    font-family: 'Corben', cursive;
+}
+
+
+#div_2 #header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#div_2 #header h1 {
+    color: #ffffff;
+    font-size: 8vh;
+    font-family: 'Corben', cursive;
+}
+
+
+#div_2 #header input {
+    border: 0vh;
+    width: 50vh;
+    height: 4vh;
+    border-radius: 2vh;
+}
+
+#div_2 #header #div_header {
+    display: flex;
+    align-items: center;
+}
+
+#div_2 #header #div_header img {
+    margin-left: 2vh;
+}
+
+#conteudo {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    height: 82vh;
+    width: 180vh;
+    margin-top: 1vh;
+    border-radius: 0.8vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#conteudo_1 {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Corben', cursive;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#conteudo_1 #voltar {
+    height: 9vh;
+    width: 15vh;
+    align-items: center;
+    display: flex;
+}
+
+#voltar a:hover {
+    transition: 0.3s;
+    transform: scale(1.2);
+}
+
+#conteudo_1 h1 {
+    text-align: center;
+
+}
+
+#barra {
+    width: 160vh;
+    height: 0.25vh;
+    background-color: black;
+    margin-bottom: 2vh;
+}
+
+#conteudo_2 {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#conteudo_2 div {
+    width: 145vh;
+}
+
+#conteudo_2 p {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    font-family: 'Corben', cursive;
+    font-size: 2.3vh;
+    text-align: justify;
+}
+
+#conteudo_3 {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1vh;
+}
+
+#conteudo_3 h3 {
+    font-family: 'Corben', cursive;
+}
+
+#conteudo_3 a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#conteudo_3 button {
+    border: 0vh;
+    border-radius: 20vh;
+    margin-top: 1vh;
+    width: 20vh;
+    height: 4vh;
+    font-family: 'Corben', cursive;
+    font-size: 2.3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#conteudo_3 button:hover {
+    background-color: rgb(221, 221, 221);
+}
