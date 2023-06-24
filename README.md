@@ -13,3 +13,6 @@
  - Guia de estilo, user flow e prototipo 
  - Código HTML e CSS, no GitHubPages 
  - Código PostgreSQL 
+
+### Observação Importante:
+- Em nossos testes e revisões antes da entrega, o arquivo para o brModelo apresentou um bug onde o Projeto Conceitual era aberto em branco. Caso isso aconteça, basta reabrir o arquivo algumas vezes, de preferência diretamente pelo brModelo na opção "Abrir arquivo". O problema é apenas na visualização, assim que o arquivo é aberto com sucesso os detalhes serão exibidos corretamente.
